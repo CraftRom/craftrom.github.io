@@ -191,9 +191,18 @@
 }
 
 .sticky-submenu #sub-menu>.links>a+a {
-    margin-left: 30px
+    margin-left: 30px;
+	text-decoration: none;
+    color: inherit;
+    outline: none;
 }
 
 .sticky-submenu #sub-menu>.links>a:hover {
     color: #55afff
+}
+
+@media screen and (max-width:1399px) {
+    #menu-container>.sticky>.sticky-submenu #sub-menu {
+        padding: 0 20px
+    }
 }
