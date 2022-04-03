@@ -2,17 +2,17 @@
 layout: default
 ---
 
-<article class="post">
-  <div class="jumbotron">
-    <div class="container">
-
-      <h1>{{ page.title }}</h1>
-      <h6>Written on {{ page.date | date: "%B %e, %Y" }} {% if page.author %} by {{ page.author }} {% endif %}</h6>
-
-    </div>
-  </div>
-  <div class="container post">
-    <div align="right">
+<article class="middle sidebar container">
+  <div type="News" class="news">
+    <div class="head">
+        <h1>{{ page.title }}</h1>
+		
+		<div class="wrapper">
+		<div class="image-wrapper">
+		<div class="gradient" style="background: linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(82, 78, 72, 0.85) 80%);"></div>
+		<img src="{{site.url}}{{page.image}}"></div> 
+		<div class="date">{{ page.date | date: "%B %e, %Y" }}</div> 
+		{% if page.author %}<div class="author"><div class="data"><div class="name"><span>{{ page.author }}</span></div></div></div>{% endif %}
     </div>
     {{ content }}
 
