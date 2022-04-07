@@ -24,20 +24,7 @@ body {
 }
 
 #main {
-    flex: 1 0 auto;
-    position: relative;
-    z-index: 1;
-}
-
-#main #content {
-    background-color: var(--background-color);
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    margin: 0 auto;
-    z-index: 3;
-    height: 100%;
-    overflow: hidden;
+  flex: 1;
 }
 
 img {
