@@ -16,6 +16,7 @@ For the whole world, except for the Russian, I wish peace, love and understandin
 And finally, I thought for a long time to write this to the orcs, rashists, Russians.
 I wish you, bitches, death to all, to live in fear, in poverty you are unworthy of another!!!
 
-
+Glory to Ukraine! Glory to heroes!
+Слава Україні! Героям слава!
 
 *Yours Dmytro Galitsky*
