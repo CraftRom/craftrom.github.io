@@ -8,7 +8,6 @@ group :test do
 end
 
 group :jekyll_plugins do
-   gem 'github-pages', '~> 106'
    gem 'jekyll-redirect-from', '= 0.16.0'
    gem 'jekyll-relative-links', '= 0.6.1'
    gem 'jekyll-sass-converter', '= 1.5.2'
