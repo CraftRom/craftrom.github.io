@@ -1,0 +1,8 @@
+device: olive
+kernels:
+  - name: Chidori Kernel
+    android: [10-12]  
+    linux: [4.9.x]
+    bage: true
+    bageurl: https://img.shields.io/sourceforge/dt/exodusos/Chidori_Kernel/olive?style=for-the-badge
+    url: https://sourceforge.net/projects/exodusos/files/Chidori_Kernel/olive/
