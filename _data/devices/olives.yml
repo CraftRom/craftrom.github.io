@@ -1,13 +1,13 @@
 architecture: arm64
 battery: {removable: False, capacity: 5000, tech: 'Li-Po'}
-codename: olive
+codename: olives
 cpu: Cortex-A53
 cpu_cores: '8'
 cpu_freq: 4 x 2.0 GHz + 4 x 1.45 GHz
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
 gpu: Adreno 505
-image: olive.png
+image: olives.png
 install_method: fastboot_xiaomi
 is_ab_device: false
 kernel: android_kernel_olive
@@ -26,6 +26,6 @@ uses_twrp: true
 vendor: Xiaomi
 vendor_short: xiaomi
 
-tags: [onclite, redmi, xiaomi, mokee, lineage, onc, redmi, redmi 7, redmi y3, y3, crDroid, Chidori kernel, chidori]
+tags: [onclite, redmi, xiaomi, mokee, lineage, olives, redmi, redmi 8, redmi 8a, olive, crDroid, Chidori kernel, chidori]
 
 

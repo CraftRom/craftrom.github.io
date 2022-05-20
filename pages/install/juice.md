@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on juice
+title: Install custom Android OS on juice
 folder: install
 permalink: /devices/juice/install
 device: juice

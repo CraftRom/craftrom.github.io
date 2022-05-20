@@ -1,8 +1,8 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on olive
+title: Install custom Android OS on olives
 folder: install
-permalink: /devices/olive/install
-device: olive
+permalink: /devices/olives/install
+device: olives
 ---
 {% include templates/device_install.md %}
