@@ -59,6 +59,8 @@ Magisk Module that will turn your Android phone into a OnePlus device by adding:
 
     You should have received a copy of the GNU General Public License along with
     OxyAdditional. If not, see <http://www.gnu.org/licenses/>.
+	
 ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** *****
+
 ### v1.0 - 04.06.2022
 * Initial release
