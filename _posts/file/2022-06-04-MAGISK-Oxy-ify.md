@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [MAGISK | SYSTEMLESS] Oxy-ify
+title: \[MAGISK | SYSTEMLESS] Oxy-ify
 category: file
 excerpt: Magisk module to add Oxygen OS app to your device
 author: melles1991
