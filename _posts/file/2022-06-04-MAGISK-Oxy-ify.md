@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Oxy-ify
+title: [MAGISK | SYSTEMLESS]Oxy-ify
 category: file
-excerpt: MAGISK | SYSTEMLESS
+excerpt: Magisk module to add Oxygen OS app to your device
 author: melles1991
 version: v1.0
 durl: https://github.com/CraftRom/Oxy-ify/releases
