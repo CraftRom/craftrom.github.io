@@ -13,7 +13,7 @@ image: assets/img/module.png
 
 <div align="center">
   <!-- Version -->
-    <img src="https://img.shields.io/badge/Version-v1.0-blue.svg?longCache=true&style=popout-square"
+    <img src="https://img.shields.io/badge/Version-{{page.version}}-blue.svg?longCache=true&style=popout-square"
       alt="Version" />
   <!-- Min Magisk -->
     <img src="https://img.shields.io/badge/MinMagisk-21.4-red.svg?longCache=true&style=flat-square"
