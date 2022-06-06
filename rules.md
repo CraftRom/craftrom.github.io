@@ -7,7 +7,8 @@ permalink: /rules/
 <div align="center">
   <!-- Lang -->
 	<a href="https://www.craft-rom.pp.ua/ru/rules/"><img src="https://img.shields.io/badge/READ-RUSSIAN-success?longCache=true&style=flat-square"
-      alt="_lang_" /></a></div></br>  
+      alt="_lang_" /></a></div>
+
 {% include alerts/note.html content="I have no desire to limit the communication of chat participants with each other.
 However, it is worth remembering that we are all gathered here for the sake of obtaining information or pleasant emotions.
 And to preserve the sincerity and romance of the chat, I strongly recommend that you follow the set of rules." %}
