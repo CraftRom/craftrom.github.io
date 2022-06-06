@@ -11,8 +11,8 @@ And to preserve the sincerity and romance of the chat, I strongly recommend that
 
 ### Communication
 1.1.  In the chat it is forbidden: flood / caps / spam emoji;
-{% include alerts/warning.html content="  "Flood" is the publication of 3-4 times in a row or more messages in a short period of time.
- "Caps" is the use of >=50% of capital letters.  Exception: abbreviation" %} 
+{% include alerts/warning.html content="  \Flood" is the publication of 3-4 times in a row or more messages in a short period of time.
+ \"Caps" is the use of >=50% of capital letters.  Exception: abbreviation" %} 
 1.2.  It is forbidden to insult users in any form, as well as relatives;
 1.3.  It is forbidden to mention administrators, except for important cases;
  
