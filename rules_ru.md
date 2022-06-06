@@ -7,8 +7,7 @@ permalink: /ru/rules/
 <div align="center">
   <!-- Lang -->
 	<a href="https://www.craft-rom.pp.ua/rules/"><img src="https://img.shields.io/badge/READ-ENGLISH-success?longCache=true&style=flat-square"
-      alt="_lang_" /></a></div>
-	<br>  
+      alt="_lang_" /></a></div></br>
 {% include alerts/note.html content="У меня нету желания ограничивать общение участников чата между собой.
 Однако, стоит помнить, что все мы собрались здесь ради получения информации или приятных эмоций.
 И для сохранения душевности и романтики чата настоятельно рекомендую соблюдять свод правил." %}
