@@ -13,8 +13,9 @@ These packages are only dependent on your OS version and architecture, which can
 
 |Version                   |Link                                                   |
 |--------------------------|-------------------------------------------------------|
+|Android 12.1|[MindTheGapps](https://androidfilehost.com/?w=files&flid=322935) ([mirror](http://downloads.codefi.re/jdcteam/javelinanddart/gapps))|
 |Android 11|[MindTheGapps](https://androidfilehost.com/?w=files&flid=322935) ([mirror](http://downloads.codefi.re/jdcteam/javelinanddart/gapps)), [NikGapps](https://sourceforge.net/projects/nikgapps/files/Releases/NikGapps-R/), [Open GApps](http://opengapps.org/?api=11&variant=nano)|
-|Android 10|[Open GApps](http://opengapps.org/?api=10&variant=nano)|
+|Android 10|[MindTheGapps](https://androidfilehost.com/?w=files&flid=322935) ([mirror](http://downloads.codefi.re/jdcteam/javelinanddart/gapps)), [Open GApps](http://opengapps.org/?api=10&variant=nano)|
 |Android 9.0|[MindTheGapps](http://downloads.codefi.re/jdcteam/javelinanddart/gapps) ([mirror](https://androidfilehost.com/?w=files&flid=170282)), [Open GApps](http://opengapps.org/?api=9.0&variant=nano)|
 |Android 8.1|[MindTheGapps](http://downloads.codefi.re/jdcteam/javelinanddart/gapps) ([mirror](https://androidfilehost.com/?w=files&flid=170282)), [Open GApps](http://opengapps.org/?api=8.1&variant=nano)|
 |Android 7.1|[Open GApps](http://opengapps.org/?api=7.1&variant=nano)|
