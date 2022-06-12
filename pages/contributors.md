@@ -46,9 +46,9 @@ Telegram chat administrators have certain administrator rights and can manage us
 
 | Name | Nickname | Situation |
 |------|----------|------|
-| Maxim | Luckyakalucka | Co-founder |
+| Maxim | luckyakalucka | Co-founder |
 | Dmitry K | username_DK | Admin |
-| Igor | Igoryan94 | Admin |
+| Igor | DfP_DEV | Admin |
 | Zhenya Landsberg | somersbyscam | Admin |
 | --- | forestgun78 | Admin |
 | --- | xqwift | Moderator |
