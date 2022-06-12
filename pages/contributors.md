@@ -75,3 +75,12 @@ These people are responsible for the content of [our website](https://www.craft-
 |------|----------|
 | Dmytro Galytskyi | melles1991 |
 {: .table }
+
+### Official app (CraftRom-Manager)
+
+These people are responsible for developing [our app](https://github.com/CraftRom/CraftRom-Manager):
+
+| Name | Nickname |
+|------|----------|
+| Dmytro Galytskyi | melles1991 |
+{: .table }
