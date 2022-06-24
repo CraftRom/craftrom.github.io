@@ -26,6 +26,7 @@ These people have responsibility over the direction of the project and are commi
 {%- include snippets/branches.md %}
 {%- assign versions = "" | split: " " %}
 {%- assign versions = versions | push: current_branch %}
+{%- assign versions = versions | push: branch_minus_1 %}
 
 {% for version in versions %}
 
