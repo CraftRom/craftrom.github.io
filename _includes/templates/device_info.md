@@ -13,7 +13,7 @@
 
 - [Installation]({{ "devices/" | append: device.codename | append: "/install" | relative_url }})
 - [For developers]({{ site.baseurl }}/developer_information.html)
-- [How to submit a bug report]({{ site.baseurl }}/how-to/bugreport-howto)
+- [How to submit a bug report]({{ site.baseurl }}/how-to/bugreport)
 - [How to fixing SafetyNet]({{ site.baseurl }}/how-to/safety-net-fix)
 {% assign versions_count = device.versions|size -%}
 {%- if versions_count > 1 -%}
