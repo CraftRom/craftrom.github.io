@@ -4,8 +4,10 @@ codename: onclite
 cpu: Kryo 250
 cpu_cores: '8'
 cpu_freq: 1.8 GHz
+current_branch: 18.1
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
+exodus_maintainers: [melles1991]  
 gpu: Adreno 506
 image: onclite.png
 install_method: fastboot_xiaomi
@@ -21,9 +23,11 @@ screen: {size: '15.9 mm (6.26 in)', density: 269, resolution: '1520x720', techno
 soc: Qualcomm MSM8953 Snapdragon 632
 storage: 16/32/64 GB eMMC 5.1
 tree: android_device_xiaomi_onclite
+tree_vendor: android_vendor_xiaomi_onclite
 type: phone
 uses_twrp: true
 vendor: Xiaomi
 vendor_short: xiaomi
+versions: [17.1, 18.1]
 
 tags: [onclite, redmi, xiaomi, mokee, lineage, onc, redmi, redmi 7, redmi y3, y3, crDroid, Chidori kernel, chidori]
