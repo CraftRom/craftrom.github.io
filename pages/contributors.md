@@ -21,7 +21,34 @@ These people have responsibility over the direction of the project and are commi
 | Dmytro Galytskyi | melles1991 |
 {: .table }
 
-### Device maintainers
+### ExodusOS maintainers
+
+{%- include snippets/branches.md %}
+{%- assign versions = "" | split: " " %}
+{%- assign versions = versions | push: current_branch %}
+{%- assign versions = versions | push: branch_minus_1 %}
+
+{% for version in versions %}
+
+#### ExodusOS (powered by LineageOS) {{ version }}
+
+<table class="table">
+<thead>
+<tr><th>Device</th><th>Maintainer(s)</th></tr>
+</thead>
+<tbody>
+{%- for device in sorted %}
+{%- assign numMaintainers = device.exodus_maintainers | size %}
+{%- if device.current_branch != version or numMaintainers == 0 %}
+{%- continue %}
+{%- endif %}
+<tr><td><b><a href="{{ "/devices/" | append: device.codename | relative_url }}">{{ device.vendor }} {{ device.name }} ({{ device.codename }})</a></b></td><td>{{ device.exodus_maintainers | join: ', ' }}</td></tr>
+{%- endfor %}
+</tbody>
+</table>
+{%- endfor %}
+
+### Chidori Kernel maintainers
 
 <table class="table">
 <thead>
