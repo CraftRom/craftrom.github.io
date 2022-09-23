@@ -1,0 +1,31 @@
+<tr>
+    <th scope="row"><a href="{{ exodus.url }}">{{ exodus.name }}</a></th>
+    <td>{%- if exodus.android.first.size == 1 %}
+                {%- for version in exodus.android %}
+                <ul>
+                    <li>{{ version.first[0] }}
+                        {% assign android = version.first[1] %}
+                        {% include snippets/android_version.html %}
+                    </li>
+                </ul>
+                {%- endfor %}
+            {%- else %}
+                {%- assign android = exodus.android %}
+                {%- include snippets/android_version.html %}
+            {%- endif %}
+	</td>
+	<td>{%- if exodus.type != empty %}
+		 {{ exodus.type }}
+		{%- else %}
+		null
+	    {%- endif -%}
+	</td>		
+    <td>{%- if exodus.bage == true %}
+        <a href="{{ exodus.url }}"><img alt="SourceForge" src="{{ exodus.bageurl }}"></a>
+        {%- else%}
+    <a href="{{ exodus.url }}">DOWNLOAD</a>
+        {%- endif %}
+    </td>  
+</tr>
+
+
