@@ -3,6 +3,6 @@ roms:
   - name: Pixel Experience Plus
     url: https://sourceforge.net/projects/exodusos/files/juice/PixelExperience+/
     bage: true
-    bageurl: https://img.shields.io/sourceforge/dt/exodusos/chime/PixelExperience+?style=for-the-badge
+    bageurl: https://img.shields.io/sourceforge/dt/exodusos/juice/PixelExperience+?style=for-the-badge
     type: [Unofficial]
     android: [11]
