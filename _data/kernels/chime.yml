@@ -4,5 +4,5 @@ kernels:
     android: [11-12]  
     linux: [4.19.x]
     bage: true
-    bageurl: https://img.shields.io/sourceforge/dt/exodusos/Chidori_Kernel/chime/?style=for-the-badge
+    bageurl: https://img.shields.io/sourceforge/dt/exodusos/Chidori_Kernel/chime?style=for-the-badge
     url: https://sourceforge.net/projects/exodusos/files/Chidori_Kernel/chime/
