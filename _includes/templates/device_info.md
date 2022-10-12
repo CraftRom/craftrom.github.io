@@ -40,15 +40,15 @@
 
 You can find assistance on our [telegram group](https://t.me/craft_rom), or in [comments](#comments).
 
+{% include alerts/important_type_descriptions.html %}
+
 {% if exodus.device == device.codename %}
 ## Exodus OS list
-{% include alerts/important_type_descriptions.html %}
 {% include device_exodus_list.html %}
 {% endif %}
 
 {% if kernel.device == device.codename %}
 ## Kernel list
-{% include alerts/important_type_descriptions.html %}
 {% include device_kernel_list.html %}
 {% endif %}
 
