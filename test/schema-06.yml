@@ -258,6 +258,7 @@ definitions:
         - squirrel
       type: string
     type: array
+    uniqueItems: True
   valid_dimension:
     oneOf:
     - "$ref": "#/definitions/dimension_string"

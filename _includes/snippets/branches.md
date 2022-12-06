@@ -1,4 +1,4 @@
-{%- assign branches = site.data.schema.definitions.valid_branches.enum %}
+{%- assign branches = site.data.schema.definitions.valid_branches.items.enum | join: ", " %}
 {%- assign num_branches = branches | size %}
 {%- assign current_branch = branches.last %}
 {%- assign num_minus_1 = num_branches | minus: 2 %}
