@@ -7,5 +7,3 @@ RUN bundle exec jekyll build
 
 FROM docker.io/nginx:latest
 COPY --from=builder /src/_site/ /usr/share/nginx/html/
-
-
