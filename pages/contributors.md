@@ -2,6 +2,7 @@
 sidebar: home_sidebar
 title: Craft Rom contributors
 permalink: contributors.html
+versions: [squirrel, raccoon]
 ---
 
 {% assign devices = "" | split: " " %}

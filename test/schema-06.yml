@@ -254,7 +254,7 @@ definitions:
     description: Valid branches a device can be on
     items:
       enum:
-        - raccun
+        - raccoon
         - squirrel
       type: string
     type: array
