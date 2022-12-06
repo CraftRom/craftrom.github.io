@@ -34,9 +34,6 @@ Head Developers are project leads. These people have responsibility over the dir
 
 ### ExodusOS maintainers
 
-{%- assign versions = "" | split: " " %}
-{%- assign versions = versions %}
-
 {% for version in versions %}
 
 #### ExodusOS {{ version }}
