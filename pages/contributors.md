@@ -21,6 +21,16 @@ These people have responsibility over the direction of the project and are commi
 | Dmytro Galytskyi | melles1991 |
 {: .table }
 
+### Head Developers (ExodusOS Directors)
+
+Head Developers are project leads. These people have responsibility over the direction of the project and are committed to improving it.
+
+| Name | Nickname |
+|------|----------|
+| Dmytro Galytskyi | melles1991 |
+| null | Sensei-Developer |
+{: .table }
+
 ### ExodusOS maintainers
 
 {%- include snippets/branches.md %}

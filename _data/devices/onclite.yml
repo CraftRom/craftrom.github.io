@@ -4,10 +4,10 @@ codename: onclite
 cpu: Kryo 250
 cpu_cores: '8'
 cpu_freq: 1.8 GHz
-current_branch: 18.1
+current_branch: 19.1
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
-exodus_maintainers: [melles1991]  
+exodus_maintainers: [melles1991 & Sensei-Developer]  
 gpu: Adreno 506
 image: onclite.png
 install_method: fastboot_xiaomi
