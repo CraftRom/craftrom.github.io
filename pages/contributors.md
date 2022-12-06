@@ -41,7 +41,7 @@ Head Developers are project leads. These people have responsibility over the dir
 
 {% for version in versions %}
 
-#### ExodusOS (powered by LineageOS) {{ version }}
+#### ExodusOS {{ version }}
 
 <table class="table">
 <thead>
