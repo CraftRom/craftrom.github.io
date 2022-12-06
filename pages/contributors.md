@@ -46,9 +46,8 @@ Head Developers are project leads. These people have responsibility over the dir
 {%- for device in sorted %}
 {%- assign numExMaintainers = device.exodus_maintainers | size %}
 {%- if device.current_branch == version or numExMaintainers == 0 %}
-{%- continue %}
-{%- endif %}
 <tr><td><b><a href="{{ "/devices/" | append: device.codename | relative_url }}">{{ device.vendor }} {{ device.name }} ({{ device.codename }})</a></b></td><td>{{ device.exodus_maintainers | join: ', ' }}</td></tr>
+{%- endif %}
 {%- endfor %}
 </tbody>
 </table>
