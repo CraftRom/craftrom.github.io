@@ -33,11 +33,14 @@ Head Developers are project leads. These people have responsibility over the dir
 
 ### ExodusOS maintainers
 
-{%- assign versions = "" | split: " " %}
+{% assign versions = "" | split: " " %}
 {% for version in site.versions %}
 {% assign versions = versions | push: version[1] %}
+{% endfor %}
+{% assign brunch = versions %}
 
-#### ExodusOS {{ versions }}
+{%- for version in brunch %}
+#### ExodusOS {{ brunch }}
 
 <table class="table">
 <thead>
@@ -46,7 +49,7 @@ Head Developers are project leads. These people have responsibility over the dir
 <tbody>
 {%- for device in sorted %}
 {%- assign  numExMaintainers = device.exodus_maintainers | size %}
-{%- if device.current_branch != versions or numExMaintainers == 0 %}
+{%- if device.current_branch != brunch or numExMaintainers == 0 %}
 {%- continue %}
 {%- endif %}
 <tr><td><b><a href="{{ "/devices/" | append: device.codename | relative_url }}">{{ device.vendor }} {{ device.name }} ({{ device.codename }})</a></b></td><td>{{ device.maintainers | join: ', ' }}</td></tr>
