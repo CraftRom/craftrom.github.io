@@ -15,6 +15,11 @@ github: [metadata]
 # Flags below are optional
 #
 
+#
+# ExodusOS
+#
+versions: [squirrel, raccoon]
+
 # Includes an icon in the footer for each username you enter
 footer-links:
   email:
