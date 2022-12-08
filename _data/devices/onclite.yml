@@ -7,7 +7,7 @@ cpu_freq: 1.8 GHz
 current_branch: squirrel
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
-exodus_maintainers: [melles1991 & Sensei-Developer]  
+exodus_maintainers: [melles1991, Sensei-Developer]  
 gpu: Adreno 506
 image: onclite.png
 install_method: fastboot_xiaomi
