@@ -252,10 +252,10 @@ definitions:
     type: string
   valid_branches:
     description: Valid branches a device can be on
-      enum:
-        - raccoon
-        - squirrel
-      type: string
+    enum:
+    - raccoon
+    - squirrel
+    type: number
   valid_dimension:
     oneOf:
     - "$ref": "#/definitions/dimension_string"
