@@ -1,0 +1,8 @@
+device: onclite
+exodus:
+  - name: ExodusOS
+    url: https://sourceforge.net/projects/exodusos/files/ExodusOS/onclite/raccoon/
+    bage: true
+    bageurl: https://img.shields.io/sourceforge/dt/exodusos/ExodusOS/onclite/raccoon?style=for-the-badge
+    type: [Official]
+    android: [11]

@@ -1,4 +1,4 @@
-device: juice
+device: chime
 roms:
   - name: Pixel Experience Plus
     url: https://sourceforge.net/projects/exodusos/files/juice/PixelExperience+/

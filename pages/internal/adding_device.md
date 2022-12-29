@@ -84,8 +84,25 @@ For `tech` you can use:
 
 ### Adding the device's image
 
-Find a reasonably high-quality image of your device, and add it to `images/devices/<image>.png`. The filename must match the
-entry in your YAML file. Also make sure the background of the image is transparent.
+Find a reasonably high-quality image of your device, and add it to `images/devices/<image.png>`. You must ensure the following:
+
+- The filename must match the entry `image` in your YAML file
+- The background of the image is transparent
+- The image is cropped to the actual content
+- Preferably you remove any cast shadow - if that's not possible, make sure it doesn't extend too much beyond the actual device outline
+- Optional: If you are already working with the image in an editor, rescale the picture to so the bigger dimension equals 500px (respecting the aspect ratio, keeping the other dimension smaller than that)
+
+{% include alerts/note.html content="It is unlikely that your picture has equal width and height. Please check the image rules above!" %}
+
+Then run
+
+```
+./scripts/prepare_image.sh <image.png>
+```
+
+This will check the image against the maximum size and generate a smaller version of it in `images/devices/small/<image.png>`.
+
+The smaller picture also needs to be committed!
 
 ## Testing it works
 
