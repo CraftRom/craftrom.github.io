@@ -4,5 +4,5 @@ exodus:
     url: https://sourceforge.net/projects/exodusos/files/ExodusOS/spes/squirrel/
     bage: true
     bageurl: https://img.shields.io/sourceforge/dt/exodusos/ExodusOS/spes/squirrel?style=for-the-badge
-    type: [Official]
+    type: [Release]
     android: [12.1]
