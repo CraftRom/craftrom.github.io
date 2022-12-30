@@ -8,6 +8,7 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>H
 gpu: Adreno 610
 image: spes.png
 install_method: fastboot_xiaomi
+current_branch: squirrel
 exodus_maintainers: [melles1991, Sensei-Developer] 
 maintainers: [Sensei-Developer]
 name: Redmi Note 11
@@ -22,6 +23,5 @@ type: phone
 vendor: Xiaomi
 vendor_short: xiaomi
 uses_twrp: true
-versions: [19.1]
 
 tags: [spes, spesn, redmi, xiaomi, mokee, lineage, redmi, redmi note 11, note 11, crDroid, Chidori kernel, chidori]
