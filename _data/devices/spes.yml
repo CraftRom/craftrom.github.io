@@ -1,0 +1,27 @@
+architecture: {cpu: 'arm64'}
+battery: {removable: False, capacity: 5000, tech: 'Li-Po'}
+codename: spes
+cpu: Kryo 265
+cpu_cores: '8'
+cpu_freq: 4 x 1.9 GHz + 4 x 2.4 GHz
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
+gpu: Adreno 610
+image: spes.png
+install_method: fastboot_xiaomi
+exodus_maintainers: [melles1991, Sensei-Developer] 
+maintainers: [Sensei-Developer]
+name: Redmi Note 11
+ram: 4/6 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+  Keep holding both buttons until the "Redmi" logo appears on the screen, then release.
+release: 2014-04-11
+screen: {size: '6.43 in', density: 409, resolution: '1080x2400', technology: 'AMOLED'}
+soc: Qualcomm Snapdragon 680
+storage: 64/128 GB UFS 2.2
+type: phone
+vendor: Xiaomi
+vendor_short: xiaomi
+uses_twrp: true
+versions: [19.1]
+
+tags: [spes, spesn, redmi, xiaomi, mokee, lineage, redmi, redmi note 11, note 11, crDroid, Chidori kernel, chidori]
