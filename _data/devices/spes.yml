@@ -9,6 +9,7 @@ gpu: Adreno 610
 image: spes.png
 install_method: fastboot_xiaomi
 current_branch: squirrel
+versions: []
 exodus_maintainers: [melles1991, Sensei-Developer] 
 maintainers: [Sensei-Developer]
 name: Redmi Note 11

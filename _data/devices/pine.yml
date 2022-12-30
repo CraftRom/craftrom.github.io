@@ -8,7 +8,7 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
 exodus_maintainers: [melles1991]  
 current_branch: squirrel
-versions: [raccoon]
+versions: []
 gpu: Adreno 505
 image: pine.png
 install_method: fastboot_xiaomi
