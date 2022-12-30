@@ -146,6 +146,7 @@
             </ul>
         </td>
     </tr>
+	{%- if device.versions != empty %}
 	<tr>
         <th scope="row">Previously supported versions</th>
         <td>
@@ -158,6 +159,8 @@
             </ul>
         </td>
     </tr>
+	
+{%- endif %}
     <tr>
         <th scope="row">Maintainer{% if device.exodus_maintainers.size > 1 %}s{% endif %}</th>
         <td>
