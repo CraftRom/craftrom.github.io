@@ -35,7 +35,6 @@ Head Developers are project leads. These people have responsibility over the dir
 
 {% for version in site.versions %}
 {% assign versions = versions | push: version[1] %}
-{% endfor %}
 {% assign brunch = versions %}
 
 {%- for version in brunch %}
@@ -56,7 +55,7 @@ Head Developers are project leads. These people have responsibility over the dir
 </tbody>
 </table>
 {%- endfor %}
-
+{% endfor %}
 ### Chidori Kernel maintainers
 
 <table class="table">
