@@ -28,6 +28,6 @@ type: phone
 uses_twrp: true
 vendor: Xiaomi
 vendor_short: xiaomi
-versions: [17.1, 18.1]
+versions: [raccoon]
 
 tags: [onclite, redmi, xiaomi, mokee, lineage, onc, redmi, redmi 7, redmi y3, y3, crDroid, Chidori kernel, chidori]
