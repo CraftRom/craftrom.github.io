@@ -1,0 +1,26 @@
+---
+layout: post
+title: Happy New Year?
+category: blog
+excerpt: Happy New Year
+author: Dmytro Galitsky (melles1991)
+image: /images/2022-12-31/photo_2023.jpg
+---
+
+![hero]({{site.url}}/{{page.image}}){: .blog_post_image_full }
+
+# Happy New Year!  
+**Dear community! Last year I wished: "Let the New Year bring peace and health to the world.".
+ As you noticed, this did not happen. Therefore, I wish all of you that your dreams come true, all your hopes come true.**
+
+# Achievements of the 2022
+Unfortunately, the year turned out to be very difficult. There is a war in my country, but this did not stop me. 
+Over the past year, the Chidori Kernel has been optimized as much as possible. 
+And the Exodus OS project was relaunched together with @Sensei-Developer, so far the firmware is available on Redmi 7 and Redmi Note 11.
+ 
+# Future plans
+I plan to add support for new devices to Exodus OS, as well as continue to develop the Cidori Kernel.
+
+Thank you for your support and Happy New Year again!
+
+*Yours Dmytro Galitsky*
