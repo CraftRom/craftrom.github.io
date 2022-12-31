@@ -1,19 +1,28 @@
 ---
 - name: Contribute
   data:
-  - name: GitHub
+  - name: CraftRom GitHub
     text: Maintenance of various devices based on the custom Android operating system.
-    url: https://github.com/CraftRom
+    url: https://github.com/{{ site.footer-links.github }}
+  - name: ExodusOS GitHub
+    text: Modification of LineageOS is aimed at improving functionality.
+    url: https://github.com/{{ site.footer-links.github_exodus }}    
 
 - name: Support
   data:
   - name: Telegram group
     text: For a discussion of devices, features, or just a general conversation about Android, check out our telegram.
-    url: https://t.me/craft_rom
+    url: https://t.me/{{ site.footer-links.telegram }}
   - name: Telegram news channel
     text: Update ROMs, kernels and other news.
-    url: https://t.me/ct_host  
-
+    url: https://t.me/{{ site.footer-links.telegram_news }}
+    
+- name: Support Exodus OS
+  data:
+  - name: Telegram group
+    text: For a discussion of features, errors check out our telegram.
+    url: https://t.me/{{ site.footer-links.telegram_exodus }}
+    
 #- name: Contact
 #  data:
 #  - name: Developer Relations

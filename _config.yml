@@ -24,8 +24,11 @@ versions: [squirrel, raccoon]
 footer-links:
   email:
   facebook: CRAFT-ROM-112316070620530
-  telegram: craft_rom
+  telegram: craftrom
+  telegram_news: craftrom_news
+  telegram_exodus: exodusos 
   github: CraftRom
+  github_exodus: ExodusOS
   rss: true
   twitter: 
 
