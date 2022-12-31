@@ -16,7 +16,7 @@ name: Redmi Note 11
 ram: 4/6 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the "Redmi" logo appears on the screen, then release.
-release: 2014-04-11
+release: 2022-02-26
 screen: {size: '6.43 in', density: 409, resolution: '1080x2400', technology: 'AMOLED'}
 soc: Qualcomm Snapdragon 680
 storage: 64/128 GB UFS 2.2
