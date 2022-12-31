@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Happy New Year?
+title: Happy New Year
 category: blog
-excerpt: Happy New Year
+excerpt: Happy New Year 2023
 author: Dmytro Galitsky (melles1991)
 image: /images/2022-12-31/photo_2023.jpg
 ---
