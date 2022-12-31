@@ -38,7 +38,7 @@
 
 ## Find help online
 
-You can find assistance on our [telegram group](https://t.me/craft_rom), or in [comments](#comments).
+You can find assistance on our [telegram group](https://t.me/{{ site.footer-links.telegram }}), or in [comments](#comments).
 
 {% include alerts/important_type_descriptions.html %}
 
