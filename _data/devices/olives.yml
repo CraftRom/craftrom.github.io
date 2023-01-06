@@ -24,7 +24,7 @@ release:
 - Redmi 8A: 2019-09
 - Redmi 8A Dual: 2020-02
 screen: {size: '156.5 mm (6.22 in)', density: 432, resolution: '720x1520', technology: 'IPS LCD'}
-soc: Qualcomm Snapdragon 439
+soc: Qualcomm SDM439 Snapdragon 439
 storage: 32/64 GB eMMC 5.1
 tree: android_device_olive
 type: phone

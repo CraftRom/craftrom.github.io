@@ -7,7 +7,7 @@ cpu_freq: 4 x 2.2 GHz + 4 x 1.8 GHz
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
 exodus_maintainers: []
-gpu: Adreno 509
+gpu: Adreno 512
 image: lavender.png
 install_method: fastboot_xiaomi
 is_ab_device: false

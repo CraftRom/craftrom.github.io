@@ -23,7 +23,7 @@ release:
 - Redmi 9T: 2021-01-08
 - Redmi Note 9 4G: 2020-11-26
 screen: {size: '104.7 mm (6.53 in)', density: 395, resolution: '1080 x 2340', technology: 'IPS LCD'}
-soc: Qualcomm SM6115 Snapdragon 662 (11 nm)
+soc: Qualcomm SM6115 Snapdragon 662
 storage: 64/128 GB
 tree: android_device_xiaomi_chime
 type: phone
