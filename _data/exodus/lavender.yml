@@ -1,0 +1,8 @@
+device: lavender
+exodus:
+  - name: ExodusOS
+    url: https://sourceforge.net/projects/exodusos/files/ExodusOS/lavender/squirrel/
+    bage: true
+    bageurl: https://img.shields.io/sourceforge/dt/exodusos/ExodusOS/lavender/squirrel?style=for-the-badge
+    type: [Release]
+    android: [12.1]
