@@ -31,9 +31,13 @@ Since you can install any non included apps later, we only recommend the followi
 
 These packages are only dependent on your OS version and architecture, which can be found on each device specific info page in ([Device overview]({{ "devices/" | relative_url }})).
 
+{% include alerts/note.html content="Filenames on MindTheGapps are of the format `MindTheGapps-<AndroidVersion>-<architecture>-<date>_<time>.zip` (with Android 12L being 12.1), choose carefully!" %}
+
+{% include alerts/warning.html content="Users often experience issues when deviating from the packages listed below. Be warned!" %}
 |Version                   |Link                                                   |
 |--------------------------|-------------------------------------------------------|
-|Android 12.1|[MindTheGapps](https://androidfilehost.com/?w=files&flid=322935) ([mirror](http://downloads.codefi.re/jdcteam/javelinanddart/gapps))|
+|Android 13|[MindTheGapps](https://androidfilehost.com/?w=files&flid=322935) ([mirror](http://downloads.codefi.re/jdcteam/javelinanddart/gapps))|
+|Android 12L|[MindTheGapps](https://androidfilehost.com/?w=files&flid=322935) ([mirror](http://downloads.codefi.re/jdcteam/javelinanddart/gapps))|
 |Android 11|[MindTheGapps](https://androidfilehost.com/?w=files&flid=322935) ([mirror](http://downloads.codefi.re/jdcteam/javelinanddart/gapps)), [NikGapps](https://sourceforge.net/projects/nikgapps/files/Releases/NikGapps-R/), [Open GApps](http://opengapps.org/?api=11&variant=nano)|
 |Android 10|[MindTheGapps](https://androidfilehost.com/?w=files&flid=322935) ([mirror](http://downloads.codefi.re/jdcteam/javelinanddart/gapps)), [Open GApps](http://opengapps.org/?api=10&variant=nano)|
 |Android 9.0|[MindTheGapps](http://downloads.codefi.re/jdcteam/javelinanddart/gapps) ([mirror](https://androidfilehost.com/?w=files&flid=170282)), [Open GApps](http://opengapps.org/?api=9.0&variant=nano)|
