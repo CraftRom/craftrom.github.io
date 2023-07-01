@@ -278,17 +278,17 @@ tr.hidden {
     cursor: pointer;
     transform: scale(1.03);
     outline: none;
-    .deviceimage {
+    .devicesimage {
       transition: 0.15s;
     }
   }
 }
 
-.item-thumb .image {
+.item-thumb .devicesimage {
   float: none;
 }
 
-.item-thumb .deviceimage {
+.item-thumb .devicesimage {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -297,23 +297,23 @@ tr.hidden {
   z-index: 1;
 }
 
-.item-thumb .deviceimage {
+.item-thumb .devicesimage {
   text-align: center;
 }
 
-.item-thumb .deviceimage img {
+.item-thumb .devicesimage img {
   display: block;
   border-radius: 10px;
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
-.item-thumb .deviceimage img {
+.item-thumb .devicesimage img {
   margin-left: auto;
   margin-right: auto;
 }
 
-.item-thumb .deviceimage:before {
+.item-thumb .devicesimage:before {
   content: "";
   display: block;
   width: 100%;
@@ -328,11 +328,11 @@ tr.hidden {
   );
 }
 
-.item-thumb .deviceimage a:hover {
+.item-thumb .devicesimage a:hover {
   opacity: 0.8;
 }
 
-.item-thumb .deviceimage a {
+.item-thumb .devicesimage a {
   width: 100%;
   height: 100%;
   display: block;

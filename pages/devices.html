@@ -105,10 +105,9 @@ search: exclude
 
     <div class="item {{ class }}" onClick="location.href='{{ url }}'">
       <div class="item-thumb">
-        <div class="deviceimage">
-          <a href="{{ url }}"><img src="{{ imagePath }}" alt="device-image for {{ device.codename }}"
-              loading="lazy" /></a>
-        </div>
+        <div class="devicesimage"><a href="{{ url }}"><img src="{{ imagePath }}" loading="lazy"
+              alt="device-image for {{ device.codename }}" title="device-image for {{ device.codename }}"
+              class="img-responsive"></a></div>
         <div>
           <div class="caption">
             <div class="hw4"><a href="{{ url }}">{{ deviceName }}</a></div>
