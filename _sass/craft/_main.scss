@@ -301,7 +301,19 @@ tr.hidden {
   text-align: center;
 }
 
-.item-thumb .image:before {
+.item-thumb .deviceimage img {
+  display: block;
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.item-thumb .deviceimage img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.item-thumb .deviceimage:before {
   content: "";
   display: block;
   width: 100%;
