@@ -97,10 +97,10 @@ search: exclude
     {%- endif -%}
 
     {%- if jekyll.environment == "development" or jekyll.environment == "production" %}
-    {%- capture imagePath %}{{ site.baseurl }}/images/devices/{{ device.image }}{% endcapture %}
+    {%- capture imagePath %}{{ site.baseurl }}/images/devices/small/{{ device.image }}{% endcapture %}
     {%- else %}
     {%- capture imagePath %}{{ "https://raw.githubusercontent.com/LineageOS/lineage_wiki/" | append: jekyll.environment
-    | append: "/images/devices/" | append: device.image }}{% endcapture %}
+    | append: "/images/devices/small/" | append: device.image }}{% endcapture %}
     {%- endif %}
 
     <div class="item {{ class }}" onClick="location.href='{{ url }}'">
