@@ -99,8 +99,10 @@
   }
 }
 
-li.nav-item.has-ripple:hover {
+.nav-item:hover,
+.nav-item:focus {
   color: #fff;
+  transform: scale(1.03);
 }
 
 .btn,
