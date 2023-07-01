@@ -117,9 +117,10 @@ search: exclude
           </div>
         </div>
       </div>
+    </div>
 
-      {%- if sorted[forloop.index].vendor != lastVendor %}
-    </div> <!-- div class="devices" -->
-    {% endif %}
-    {%- endfor %}
-  </div>
+    {%- if sorted[forloop.index].vendor != lastVendor %}
+  </div> <!-- div class="devices" -->
+  {% endif %}
+  {%- endfor %}
+</div>
