@@ -21,6 +21,8 @@ body {
   min-height: 100vh;
   flex-direction: column;
   background: #fff;
+  background-color: #242424;
+  color: #9f9f9f;
 }
 
 #main {
@@ -54,7 +56,6 @@ a.fg-primary-dark {
     color: white;
     text-decoration: underline;
   }
-
 }
 
 .pb-10 {

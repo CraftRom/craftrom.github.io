@@ -27,11 +27,6 @@ search: exclude
     });
   }
 </script>
-<style>
-  body {
-    background-color: #fafafa;
-  }
-</style>
 <div class="jumbotron">
   <div class="container">
     <h1>{{ page.title }}</h1>
@@ -97,10 +92,10 @@ search: exclude
     {%- endif -%}
 
     {%- if jekyll.environment == "development" or jekyll.environment == "production" %}
-    {%- capture imagePath %}{{ site.baseurl }}/images/devices/small/{{ device.image }}{% endcapture %}
+    {%- capture imagePath %}{{ site.baseurl }}/images/devices/{{ device.image }}{% endcapture %}
     {%- else %}
     {%- capture imagePath %}{{ "https://raw.githubusercontent.com/LineageOS/lineage_wiki/" | append: jekyll.environment
-    | append: "/images/devices/small/" | append: device.image }}{% endcapture %}
+    | append: "/images/devices/" | append: device.image }}{% endcapture %}
     {%- endif %}
 
     <div class="item {{ class }}" onClick="location.href='{{ url }}'">
