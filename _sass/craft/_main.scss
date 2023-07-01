@@ -401,6 +401,12 @@ tr.hidden {
   font-size: 10px;
 }
 
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 .item.discontinued {
   &:hover {
     img {
