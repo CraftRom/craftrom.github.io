@@ -379,6 +379,16 @@ tr.hidden {
   padding-bottom: 24px;
   margin-bottom: 0;
 }
+
+.item-thumb .codename:before {
+  content: "codename";
+  position: absolute;
+  left: 20px;
+  bottom: 42px;
+  color: #b565e6;
+  font-size: 10px;
+}
+
 .item.discontinued {
   &:hover {
     img {
