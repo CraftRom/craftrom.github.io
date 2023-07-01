@@ -239,6 +239,7 @@ a {
   -webkit-perspective: 1; /* Fix for chrome to calculate the height properly */
   -moz-column-count: 4; /* Firefox */
   column-count: 4;
+  margin-top: 0.5rem;
   padding: 0.25rem 0 0.25rem.5rem;
   font-size: 14px;
   border-radius: 4px;

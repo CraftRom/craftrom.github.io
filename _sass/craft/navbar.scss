@@ -8,9 +8,9 @@
   padding: 0.625rem 0;
   margin-bottom: 20px;
   box-shadow: none;
-  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-  background-color: white;
-  color: #555;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  background-color: #1e1e1e !important;
+  color: #9f9f9f;
 
   > .container,
   > .container-fluid {
@@ -22,12 +22,12 @@
 
   &.scrollUp {
     -webkit-transform: translateY(-70px);
-            transform: translateY(-70px);
+    transform: translateY(-70px);
     box-shadow: none !important;
   }
 
   &.navbar-shadow {
-    box-shadow: 0 1px 8px rgba(0,0,0,.3);
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3);
   }
 }
 
@@ -50,7 +50,6 @@
     height: 20px;
     fill: $brand-primary;
   }
-
 }
 
 .navbar-nav {
@@ -62,12 +61,12 @@
   margin-left: auto;
   margin-top: 0;
 
-  .nav-item.active .nav-link{
+  .nav-item.active .nav-link {
     &,
     &:hover,
     &:focus {
       color: inherit;
-      background-color: rgba(0,0,0,.04);
+      background-color: rgba(0, 0, 0, 0.04);
       font-weight: 500;
     }
   }
@@ -76,7 +75,7 @@
     display: block;
     position: relative;
     color: inherit;
-    padding: .9375rem;
+    padding: 0.9375rem;
     font-weight: 400;
     font-size: 12px;
     text-transform: uppercase;
@@ -97,13 +96,15 @@
       width: 1.25rem;
       fill: currentColor;
     }
-
   }
+}
 
+li.nav-item.has-ripple:hover {
+  color: #fff;
 }
 
 .btn,
-.navbar-nav .nav-item .btn{
+.navbar-nav .nav-item .btn {
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -115,15 +116,16 @@
 }
 
 .navbar-toggler {
-  padding: .25rem .75rem;
+  padding: 0.25rem 0.75rem;
   font-size: 1.25rem;
   line-height: 1;
   background-color: transparent;
   cursor: pointer;
   border: 0;
-  border-radius: .25rem;
+  border-radius: 0.25rem;
 
-  &:hover, &:focus {
+  &:hover,
+  &:focus {
     text-decoration: none;
   }
 
@@ -131,7 +133,7 @@
     cursor: pointer;
   }
 
-  .navbar-toggler-icon{
+  .navbar-toggler-icon {
     position: relative;
     width: 22px;
     height: 2px;
@@ -140,11 +142,10 @@
     display: block;
     border-radius: 1px;
 
-    & + .navbar-toggler-icon{
+    & + .navbar-toggler-icon {
       margin-top: 4px;
     }
   }
-
 }
 
 .navbar-expand {
@@ -189,6 +190,6 @@
 
 @include media-breakpoint-down(md) {
   .nav-open .navbar-collapse {
-    box-shadow: 0 1px 8px rgba(0,0,0,.3);
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3);
   }
 }
