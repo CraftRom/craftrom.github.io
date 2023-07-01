@@ -2,16 +2,20 @@ a.btn-donut:hover {
   color: #2196f3;
   background-color: rgba(0, 0, 0, 0.1);
   border-color: (0, 0, 0, 0.1);
+  transform: scale(1.03);
   text-decoration: none;
 }
+
 a.btn-donut {
-  color: #212121;
-  background-color: rgba(0, 0, 0, 0.1);
+  background: #242424;
+  border: 1px solid #494949;
+  border-radius: 30px;
   padding: 0.25rem 0.5rem;
-  font-size: 0.875rem;
   line-height: 1.5;
   font-size: 18px;
-  border-radius: 50px;
+  text-align: center;
+  align-items: center;
+  color: #9f9f9f;
   font-family: Google Sans Regular;
   text-decoration: none;
 }
@@ -327,9 +331,9 @@ img.btc-style {
   border-radius: 0;
 }
 .list-group-donater {
-  --bs-list-group-color: #212529;
-  --bs-list-group-bg: #fff;
-  --bs-list-group-border-color: rgba(0, 0, 0, 0.125);
+  --bs-list-group-color: #fff;
+  --bs-list-group-bg: #1e1e1e;
+  --bs-list-group-border-color: rgba(255, 255, 255, 0.125);
   --bs-list-group-border-width: 1px;
   --bs-list-group-border-radius: 0.375rem;
   --bs-list-group-item-padding-x: 1rem;
@@ -371,15 +375,21 @@ img.btc-style {
 }
 
 .user-info {
-  border: 0.5px solid;
-  border-color: #d2d2d2;
-  border-radius: 30px;
   display: flex;
   flex-direction: row;
   align-items: center;
   gap: 14px;
-  background: #ffffff;
-  box-shadow: 0px 4px 20px #dfe5ee;
+  -webkit-column-count: 4;
+  -webkit-perspective: 1;
+  -moz-column-count: 4;
+  column-count: 4;
+  margin-top: 0.5rem;
+  padding: 0.25rem 0 0.25rem 0.5rem;
+  font-size: 14px;
+  background: #1e1e1e;
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  overflow: hidden;
 }
 
 .userpic {
@@ -390,11 +400,14 @@ img.btc-style {
 }
 
 .card-danator {
-  border: 0.5px solid;
-  border-color: #d2d2d2;
-  border-radius: 30px;
-  background: #ffffff;
-  box-shadow: 0px 4px 20px #dfe5ee;
+  -moz-column-count: 4;
+  margin-top: 0.5rem;
+  padding: 0.25rem 0 0.25rem 0.5rem;
+  font-size: 14px;
+  background: #1e1e1e;
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  overflow: hidden;
 }
 .top-donator-container {
   padding: 25px 30px;
