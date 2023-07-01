@@ -2,7 +2,6 @@
 layout: default
 title: Blog
 ---
-<style>body {background-color: #fafafa;}</style>
 
 <div class="jumbotron">
   <div class="container">
@@ -17,13 +16,16 @@ title: Blog
   {% for post in site.categories.blog %}
   <div class="articles">
     <div class="articles-image">
-	<a href="{{ site.baseurl }}{{ post.url }}"><img src="{{site.url}}{{post.image}}" data-src="{{site.url}}{{post.image}}" alt="{{ post.title }}"></a></div>
+      <a href="{{ site.baseurl }}{{ post.url }}"><img src="{{site.url}}{{post.image}}"
+          data-src="{{site.url}}{{post.image}}" alt="{{ post.title }}"></a>
+    </div>
     <div class="articles-body">
       <div class="articles-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></div>
       <div class="shortly"><span>{{ post.excerpt }}</span></div>
-	  <div class="date"><i class="material-icons">date_range</i> <span>{{ post.date | date: '%B %d, %Y' }}</span></div>
-	  {% if post.author %}<div class="author"><i class="material-icons">person</i> <span>{{ post.author }}</span></div>{% endif %}
-	  <div class="button"><a href="{{ site.baseurl }}{{ post.url }}">Read More</a></div>
+      <div class="date"><i class="material-icons">date_range</i> <span>{{ post.date | date: '%B %d, %Y' }}</span></div>
+      {% if post.author %}<div class="author"><i class="material-icons">person</i> <span>{{ post.author }}</span></div>
+      {% endif %}
+      <div class="button"><a href="{{ site.baseurl }}{{ post.url }}">Read More</a></div>
     </div>
 
 
