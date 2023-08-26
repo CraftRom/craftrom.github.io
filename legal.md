@@ -51,7 +51,7 @@ These Terms, along with any other policies or guidelines posted on or linked to 
 6.2.1 Demand full compensation from the User for the damages caused by each breach;  
 6.2.2 Initiate legal proceedings if the compensation does not cover the damages caused by the User.
 
-#### 7. APPLICATION OF LAW AND DISPUTE RESOLUTION
+#### APPLICATION OF LAW AND DISPUTE RESOLUTION
 
 7.1 All matters related to the establishment, validity, performance, and interpretation of these Terms shall be governed, construed, and performed in accordance with the laws of Ukraine;  
 7.2 In the event of any issue arising concerning these Terms or their breach, the parties agree to first engage in good-faith negotiations regarding such issue for a period of no less than thirty (30) days following written notice of the claim to the other party;  
