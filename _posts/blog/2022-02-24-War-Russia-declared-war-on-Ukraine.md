@@ -2,6 +2,7 @@
 layout: post
 title: War - Russia declared war on Ukraine!
 category: blog
+filters: news
 excerpt: At 4:35 a.m., the Russian army fired missiles at Ukrainian military bases.
 author: Dmytro Galitsky (melles1991)
 image: /images/2022-02-24/war.jpg
