@@ -2,6 +2,7 @@
 layout: post
 title: Happy Easter
 category: blog
+filters: greetings
 excerpt: Christ is risen ! Truly Risen! I wish you all peace and love. And Russian ... read for yourself below.
 author: Dmytro Galitsky (melles1991)
 image: /images/2022-04-24/easter-message.png
