@@ -2,7 +2,7 @@
 layout: post
 title: Top Android apps I use every day 
 category: blog
-filters: articles
+filters: app
 excerpt: My list of programs that I have been using for several years.
 author: Dmytro Galitsky (melles1991)
 image: /images/2021-01-22/apps-mobile.jpg
