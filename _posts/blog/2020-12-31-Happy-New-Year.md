@@ -2,6 +2,7 @@
 layout: post
 title: Happy New Year
 category: blog
+filters: greetings
 excerpt: Happy New Year
 author: Dmytro Galitsky (melles1991)
 image: /images/2020-12-31/new_year.jpg
