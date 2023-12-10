@@ -2,6 +2,7 @@
 layout: post
 title: Merry Christmas 
 category: blog
+filters: greetings
 excerpt: Merry Christmas
 author: Dmytro Galitsky (melles1991)
 image: /images/2020-12-24/MerryChristmas.png
