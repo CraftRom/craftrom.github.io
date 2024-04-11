@@ -28,6 +28,11 @@ footer-links:
   telegram: lihvo_druida_chat
   rss: true
 
+languages: ["en", "ua"]
+default_lang: "en"
+exclude_from_localization: ["assets/css", "assets/img"]
+parallel_localization: true
+
 exclude:
   - .idea/
   - .gitignore
@@ -78,3 +83,4 @@ sass:
 plugins:
   - jekyll-sitemap
   - jekyll-redirect-from
+  - jekyll-polyglot
