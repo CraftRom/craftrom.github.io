@@ -12,10 +12,9 @@
         // Оновлення локального сховища браузера з активною мовою
         localStorage.setItem('active_lang', lang);
 
-        // Якщо обрана мова англійська, змініть посилання на '/'
-        if (lang === 'en') {
-            activeLangLink.setAttribute('href', '/');
-        }
+        // Формування посилання відповідно до обраної мови
+        var pageUrl = lang === '{{ site.default_lang }}' ? '{{ page.url }}' : '/' + lang + '{{ page.url }}';
+        activeLangLink.setAttribute('href', pageUrl);
     }
 
     // Перевірка локального сховища браузера при завантаженні сторінки
@@ -26,6 +25,7 @@
         }
     });
 </script>
+
 
 <div class="lang-switcher">
     {% for lang in site.languages %}
