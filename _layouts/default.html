@@ -36,20 +36,6 @@
   <meta name="msapplication-TileColor" content="#333333">
   <meta name="theme-color" content="#333333">
 
-  <!-- JavaScript для автоматичного визначення мови на основі URL -->
-  <script>
-    // Отримуємо мову браузера користувача
-    var userLang = navigator.language || navigator.userLanguage;
-
-    // Встановлюємо мову сайту відповідно до мови браузера користувача
-    var lang = userLang.substring(0, 2); // Отримуємо перші дві літери мови (наприклад, 'en', 'uk')
-
-    // Перевіряємо, чи користувач не перенаправлений вже на сторінку з відповідною мовою
-    if (!window.location.href.includes("/" + lang + "/")) {
-      // Перенаправлення на відповідну сторінку залежно від мови
-      window.location.href = "/{{ " + lang + " }}{{ page.url }}";
-    }
-  </script>
 </head>
 
 <body>
