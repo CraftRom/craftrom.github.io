@@ -1,5 +1,13 @@
 lang_name: "Українська"
+
 title: "Carft Rom"
 description: "CraftRom OS - це кастомний ROM на AOSP з Google-додатками. Наша мета - надати найвищу стабільність та функціональність."
+
 donate: "Пожертвувати"
 contribute: "Співпрацювати"
+
+news: "Новини"
+
+footer_note: "Примітка: CraftRom LLC не є неприбутковою організацією 501(c)(3), тому пожертви не є звільненими від оподаткування."
+footer_page_last_update: "Останнє оновлення сторінки:"
+footer_site_last_update: "Останнє оновлення сайту:"

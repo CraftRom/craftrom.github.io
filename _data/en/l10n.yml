@@ -1,5 +1,13 @@
 lang_name: "English"
+
 title: "Carft Rom"
 description: "CraftRom OS is a custom ROM based on AOSP with built-in Google apps. Our goal is to provide the highest stability and functionality to meet users' needs."
+
 donate: "Donate"
 contribute: "Contribute"
+
+news: "News"
+
+footer_note: "Note: Lihvo Druida LLC is not a 501(c)(3) non-profit, as such donations are not tax-exempt."
+footer_page_last_update: "Page last updated:"
+footer_site_last_update: "Site last generated:"
