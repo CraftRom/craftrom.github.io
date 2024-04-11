@@ -1,10 +1,10 @@
 output: web
 # this property is useful for conditional filtering of content that is separate from the PDF.
 
-title: Лігво Друїда
+title: CraftRom
 # this appears in the html browser tab for the site title (seen mostly by search engines, not users)
 
-company_name: Лігво Друїда Project
+company_name: CraftRom Project
 # this appears in the footer
 
 description: "Лігво Друїда Wiki"

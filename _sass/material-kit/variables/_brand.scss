@@ -4,7 +4,7 @@
 
 /*     brand Colors              */
 
-$brand-primary: #ff7d0a !default;
+$brand-primary: #2196f3 !default;
 // Генеруємо значення $brand-info на основі $brand-primary
 $brand-info: lighten($brand-primary, 20%) !default;
 $brand-success: #38853b !default;
