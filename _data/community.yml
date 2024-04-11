@@ -1,0 +1,22 @@
+---
+- name: { { site.data.l10n.contribute | escape } }
+  data:
+    - name: GitHub CraftRom
+      text: { { site.data.l10n.contribute_craftrom_github | escape } }
+      url: https://github.com/craftrom-os
+
+- name: { { site.data.l10n.support_craftrom | escape } }
+  data:
+    - name: { { site.data.l10n.telegram_group | escape } }
+      text: { { site.data.l10n.telegram_group_text | escape } }
+      url: https://t.me/craftrom
+    - name: { { site.data.l10n.telegram_news_channel | escape } }
+      text: { { site.data.l10n.telegram_news_channel_text | escape } }
+      url: https://t.me/craftrom_news
+#- name: Contact
+#  data:
+#  - name: Developer Relations
+#    text: If you wish to contact us regarding development contributions, please do so here.
+#    url: mailto:devrel@lineageos.org
+#  - name: Social Media
+#    text: Find us on social media in the footer of this page!
