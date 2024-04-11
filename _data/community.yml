@@ -1,17 +1,17 @@
 ---
-- name: {{ site.data.l10n.contribute | escape }}
+- name: Contribute
   data:
-    - name: GitHub CraftRom
-      text: {{ site.data.l10n.contribute_craftrom_github | escape }}
+    - name: CraftRom GitHub
+      text: Maintenance of various devices based on the custom Android operating system.
       url: https://github.com/craftrom-os
 
-- name: {{ site.data.l10n.support_craftrom | escape }}
+- name: Support CraftRom
   data:
-    - name: {{ site.data.l10n.telegram_group | escape }}
-      text: {{ site.data.l10n.telegram_group_text | escape }}
+    - name: Telegram group
+      text: For a discussion of devices, features, or just a general conversation about Android, check out our telegram.
       url: https://t.me/craftrom
-    - name: {{ site.data.l10n.telegram_news_channel | escape }}
-      text: {{ site.data.l10n.telegram_news_channel_text | escape }}
+    - name: Telegram news channel
+      text: Update ROMs, kernels and other news.
       url: https://t.me/craftrom_news
 #- name: Contact
 #  data:
