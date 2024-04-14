@@ -29,7 +29,11 @@ body {
   flex-direction: column;
   background: #fff;
   background-color: var(--ec-bg-site);
-  color: $grey-200;
+  border: 0;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  overflow-x: clip;
 }
 
 body:after {
