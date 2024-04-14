@@ -12,16 +12,18 @@ permalink: /community/
   </div>
 </div>
 <div class="container">
-  {% for section in site.data.community %}
+  {% assign lang = site.active_lang %}
+  {% for section in site.data[lang].community_data %}
   <h2>{{ section.name }}</h2>
   <div class="row">
     {% for item in section.data %}
     <div class="col-sm-6">
-      <h3><a href="{{item.url}}">{{ item.name }}</a></h3>
+      <h3><a href="{{ item.url }}">{{ item.name }}</a></h3>
       <p>{{ item.text }}</p>
     </div>
     {% endfor %}
   </div><br />
   {% endfor %}
 </div>
+
 <!-- Some parts of the text on this page are taken from the CyanogenMod Project. Licensed under Creative Commons Share Alike 3.0 -->

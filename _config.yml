@@ -23,10 +23,13 @@ port: 4000
 
 # Includes an icon in the footer for each username you enter
 footer-links:
-  youtube: UCWex56K6Xev50zIF7hVCyMQ
-  twitch: lihvo_druida
-  telegram: lihvo_druida_chat
+  email:
+  facebook: CRAFT-ROM-112316070620530
+  telegram: craftrom
+  telegram_news: craftrom_news
+  github: CraftRom
   rss: true
+  twitter:
 
 languages: ["en", "ua"]
 default_lang: "en"
