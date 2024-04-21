@@ -7,11 +7,11 @@ title: CraftRom
 company_name: CraftRom Project
 # this appears in the footer
 
-description: "Лігво Друїда Wiki"
+description: "CraftRom OS - a custom ROM based on AOSP with Google apps, offering top-notch stability and functionality for your device"
 # the description is used in the feed.xml file
 
 # needed for sitemap.xml file only
-url: https://www.lihvodruida.pp.ua/
+url: https://craftrom.github.io/
 
 github: [metadata]
 
