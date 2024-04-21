@@ -11,7 +11,7 @@ description: "CraftRom OS - a custom ROM based on AOSP with Google apps, offerin
 # the description is used in the feed.xml file
 
 # needed for sitemap.xml file only
-url: https://craftrom.github.io/
+url: https://craft-rom.pp.ua/
 
 github: [metadata]
 
