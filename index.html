@@ -15,7 +15,8 @@ disable_anchor: true
     <div class="card-b">
       <div class="group-head">
         <h3 class="font-weight-bold group-text-first">{{ site.data.l10n.news | escape }}</h3><a
-          class="font-weight-bold group-text-second" href="{{ site.url }}/blog" target="_blank">View All
+          class="font-weight-bold group-text-second" href="{{ site.url }}/blog" target="_blank">{{
+          site.data.l10n.view_all | escape }}
         </a>
       </div>
       <hr>
@@ -54,8 +55,8 @@ disable_anchor: true
                       fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path>
                   </svg>{% if post.author %} {{ post.author }}{% endif %}
                 </p>
-                <a class="group-grid-text2" href="{{ site.baseurl }}{{ post.url }}" target="_blank">Continue
-                  Reading
+                <a class="group-grid-text2" href="{{ site.baseurl }}{{ post.url }}" target="_blank">{{
+                  site.data.l10n.read_more | escape }}
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
                     stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                     class="lucide lucide-arrow-right">

@@ -9,6 +9,8 @@ community: "Community"
 contribute: "Contribute"
 
 news: "News"
+view_all: "View All"
+read_more: "Continue Reading"
 
 community_desc: "A method of communication for solving various problems, as well as supporting users."
 contribute_craftrom_github: "Maintenance of various devices based on the custom Android operating system."
