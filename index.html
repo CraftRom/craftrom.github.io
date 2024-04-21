@@ -17,7 +17,13 @@ disable_anchor: true
       <div class="card-b">
         <h3 class="font-weight-bold">{{ site.data.l10n.news | escape }}</h3>
         <hr>
-        <p>Розділ новин знаходится в розробці.</p>
+        {% for post in site.categories.blog limit:1 %}
+        <h3><a class="fg-primary-dark" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+        <h6>{{ post.excerpt }}</h6>
+        <p><i class="material-icons-outlined post-icons" alt="Creation date">calendar_today</i> {{ post.date | date: '%B %d, %Y' }}
+        {% if post.modified %} <i class="material-icons-outlined post-icons" alt="Last modified">edit_calendar</i> {{ post.modified | date: '%B %d, %Y' }}{% endif %}
+        {% if post.author %} <i class="material-icons-outlined post-icons" alt="Author">person_outline</i> {{ post.author }}{% endif %}</p>
+        {% endfor %}
       </div>
     </div>
 
